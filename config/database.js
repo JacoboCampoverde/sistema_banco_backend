@@ -16,7 +16,7 @@ const sequelize = new Sequelize(
             }
         },
         define: {
-            schema: process.env.DB_SCHEMA,
+            //schema: process.env.DB_SCHEMA,
             freezeTableName: true,
         },
         logging: process.env.NODE_ENV === 'development' ? console.log : false,
